@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Select Your Best Player</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-1">Select Your Best Player</h1>
+        <p class="header-paragraph">When talking about the world’s most popular games, football tops the list. Every year we witness several football tournaments,<br> which gives us the best adrenaline rush of our lives. It is exciting to see players and teams from various nations play <br> against each other enthusiastically.</p>
+    </header>
+    <main>
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="player-1" class="card-title ">Lionel Messi</h5>
+                      <p class="card-text">36 Goals 120 Assist</p>
+                      <button href="#" id="selected-1" class="btn btn-primary">selected</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/ronaldo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cristiano Ronaldo</h5>
+                      <p class="card-text">36 Goals 120 Assist.</p>
+                      <button href="#" id="selected-2" class="btn btn-primary">selected</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/dmarya.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ángel Di María</h5>
+                      <p class="card-text">36 Goals 120 Assist</p>
+                      <button href="#" id="selected-3" class="btn btn-primary">selected</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Selected - V</h5>
+                      <p id="select-player-1">Please</p>
+                      <p id="select-player-2">Select</p>
+                      <p id="select-player-3">Your</p>
+                      <p id="select-player-4">Best</p>
+                      <p id="select-player-5">Five Player</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/debala.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Paulo Dybala</h5>
+                      <p class="card-text">36 Goals 120 Assist.</p>
+                      <button href="#" id="selected-4" class="btn btn-primary">selected</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/mbappe.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kylian Mbappé</h5>
+                      <p class="card-text">36 Goals 120 Assist</p>
+                      <button href="#" id="selected-5" class="btn btn-primary">selected</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/ozil.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mesut Özil</h5>
+                      <p class="card-text">36 Goals 120 Assist</p>
+                      <button href="#" id="selected-6" class="btn btn-primary">selected</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Budget</h5>
+                        <label class="per-input-filde" for="click">Per Player</label>
+                        <input type="number" id="player-total-amount" placeholder="Please Type Your Budget">
+                        <button id="player-amount-btn" class="btn btn-primary">Calculate</button>
+                        <p class="text-white">Player Expenses: $<span id="total-budget"></span></p>
+                        <label class="manager-title" for="">manager</label>
+                        <input type="number" id="manager-amount" placeholder="Please Type Your Manager Budget">
+                        <label class="couch-title" for="">couch</label>
+                        <input type="number" id="couch-amount" placeholder="Please Type Your couch Budget"> 
+                        <button id="total-amount-team" class="btn btn-primary">Calculate Total</button>
+                        <p class="total">Total:$ <span id="total-budget-team"></span></p>                        
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p class="footer-section">Copyright @ 2022 All Rights Reserved.</p>
+    </footer>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- index js link -->
+    <script src="java/index.js"></script>
+    <script src="java/math.js"></script>
+    
+</body>
+</html>
